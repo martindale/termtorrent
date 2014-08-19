@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var termtorrent = require('../');
+
+process.title = 'termtorrent';
+
+termtorrent.main(function(err) {
+  if (err) throw err;
+  return process.exit(0);
+});

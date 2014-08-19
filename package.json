@@ -1,0 +1,33 @@
+{
+  "name": "termtorrent",
+  "version": "0.0.0",
+  "description": "terminal torrent client",
+  "main": "./lib/index.js",
+  "bin": "./bin/termtorrent",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martindale/termtorrent.git"
+  },
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "terminal"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/termtorrent/issues"
+  },
+  "homepage": "https://github.com/martindale/termtorrent",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "blessed": "0.0.37",
+    "node-torrent": "^0.2.1"
+  }
+}
